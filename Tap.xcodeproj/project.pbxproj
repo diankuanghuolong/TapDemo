@@ -13,6 +13,7 @@
 		03C985411D7FF39C00E8EAA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C9853F1D7FF39C00E8EAA4 /* Main.storyboard */; };
 		03C985431D7FF39C00E8EAA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C985421D7FF39C00E8EAA4 /* Assets.xcassets */; };
 		03C985461D7FF39C00E8EAA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03C985441D7FF39C00E8EAA4 /* LaunchScreen.storyboard */; };
+		B68DE0121FF4EC8C009319E6 /* tapDemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = B68DE0111FF4EC8B009319E6 /* tapDemo.gif */; };
 		B6B1B6EB1FF4DB10008D5F3A /* TapView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B1B6EA1FF4DB10008D5F3A /* TapView.m */; };
 		B6B1B6EE1FF4DB1B008D5F3A /* SwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B1B6ED1FF4DB1B008D5F3A /* SwipeView.m */; };
 		B6B1B6F11FF4DB26008D5F3A /* LongPressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B1B6F01FF4DB26008D5F3A /* LongPressView.m */; };
@@ -32,6 +33,7 @@
 		03C985421D7FF39C00E8EAA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03C985451D7FF39C00E8EAA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03C985471D7FF39C00E8EAA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68DE0111FF4EC8B009319E6 /* tapDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tapDemo.gif; sourceTree = "<group>"; };
 		B6B1B6E91FF4DB10008D5F3A /* TapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapView.h; sourceTree = "<group>"; };
 		B6B1B6EA1FF4DB10008D5F3A /* TapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapView.m; sourceTree = "<group>"; };
 		B6B1B6EC1FF4DB1B008D5F3A /* SwipeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeView.h; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				03C9853C1D7FF39C00E8EAA4 /* ViewController.h */,
 				03C9853D1D7FF39C00E8EAA4 /* ViewController.m */,
 				B6B1B6E81FF4DAE8008D5F3A /* TapViews */,
+				B68DE0101FF4E864009319E6 /* ShowImgs */,
 				03C9853F1D7FF39C00E8EAA4 /* Main.storyboard */,
 				03C985421D7FF39C00E8EAA4 /* Assets.xcassets */,
 				03C985441D7FF39C00E8EAA4 /* LaunchScreen.storyboard */,
@@ -96,6 +99,14 @@
 				03C985371D7FF39C00E8EAA4 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B68DE0101FF4E864009319E6 /* ShowImgs */ = {
+			isa = PBXGroup;
+			children = (
+				B68DE0111FF4EC8B009319E6 /* tapDemo.gif */,
+			);
+			path = ShowImgs;
 			sourceTree = "<group>";
 		};
 		B6B1B6E81FF4DAE8008D5F3A /* TapViews */ = {
@@ -176,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03C985461D7FF39C00E8EAA4 /* LaunchScreen.storyboard in Resources */,
+				B68DE0121FF4EC8C009319E6 /* tapDemo.gif in Resources */,
 				03C985431D7FF39C00E8EAA4 /* Assets.xcassets in Resources */,
 				03C985411D7FF39C00E8EAA4 /* Main.storyboard in Resources */,
 			);

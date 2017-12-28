@@ -23,7 +23,7 @@
         titleL.text = @"旋转手势";
         [self addSubview:titleL];
         
-        UIView *tapView = [[UIView alloc] initWithFrame:CGRectMake(50, 120, self.frame.size.width - 100, 200)];
+        UIView *tapView = [[UIView alloc] initWithFrame:CGRectMake(50, 120, self.frame.size.width - 100, self.frame.size.height - 130)];
         tapView.userInteractionEnabled = YES;
         tapView.backgroundColor = [UIColor greenColor];
         [self addSubview:tapView];
